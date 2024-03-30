@@ -1,0 +1,162 @@
+@font-face {
+    font-family: face;
+    src: url('./helvetica-neue-55-cdnfonts/HelveticaNeueLight.ttf');
+}
+.btn-primary{
+    background-color: #1877F2;
+}
+.btn-success{
+    background-color: #36A420;
+}
+
+body{
+    background-color: #F0F2F5;
+    margin: 0;
+}
+
+.espacio-input{
+    margin-bottom: 14px !important;
+}
+
+.input-wid{
+    height: 50px;
+}
+
+.b{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.boton-Crear{
+    margin: 40 !important;
+}
+
+.crear{
+    font-size: 17px;
+}
+
+.ancho-texto{
+    width: 500px;
+}
+
+.imgF{
+    position: absolute;
+    left: -30px;
+    top: -95px;
+}
+
+.tama-peque{
+    font-size: 14.2px;
+}
+
+.delgada{
+    font-weight: 450;
+}
+
+.links{
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+.links a{
+    color: #8A8D91;
+    font-size: 12px;
+}
+
+.links li{
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+.copy{
+    font-size: 11px;
+    color: #848484;
+    align-self: flex-start;
+}
+
+.foot-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot{
+    max-width: 70vw;
+}
+
+hr{
+    margin: 0px;
+}
+
+.responsive{
+    margin-top: 40px !important;
+}
+
+.ocultar-responsive-element{
+    display: none;
+}
+@media (max-width: 1040px) {
+    .ocultar-responsive-element{
+        display: flex;
+    }
+
+    body{
+        background-color: white;
+    }
+    .contenedor{
+        display: block !important;
+    }
+
+    .imgF{
+        position: relative !important; 
+        top: 0px !important;
+        left: 0px !important;
+        width: 170px;
+    }
+
+    .contenedorHead{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .contenedorHead span{
+        margin: 0 !important;
+        text-align: center;
+    }
+    .ancho-texto{
+        width: 400px;
+    }
+
+    .ocultar{
+        display: none;
+    }
+    .card{
+        border: 0;
+    }
+
+    .responsive{
+        margin-top: 0px !important;
+    }
+
+    .btn-success{
+        background-color: white;
+        color: black;
+        width: 80%;
+        border-color: black;
+    }
+
+    .col p{
+        margin: 0;
+    }
+
+    .element{
+        display: block;
+    }
+}
